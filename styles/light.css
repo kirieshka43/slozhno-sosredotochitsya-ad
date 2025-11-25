@@ -1,0 +1,33 @@
+/*  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему 
+*/
+:root.theme-light {
+  --text-color: #353430;
+  --brand-color: #ffc2e6;
+  --secondary-color: #ff8dcb;
+  --secondary-color-o-40: #ff8dcb40;
+  --accent-color: #ff8dcb;
+  --highlight-color: #353430;
+
+  --page-background-color: #fff1f7;
+  --page-background-image: url("../images/cover-image-light.png");
+
+  --rec-decor-visibility: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-color: #353430;
+    --brand-color: #ffc2e6;
+    --secondary-color: #ff8dcb;
+    --secondary-color-o-40: #ff8dcb40;
+    --accent-color: #ff8dcb;
+    --highlight-color: #353430;
+
+    --page-background-color: #fff1f7;
+    --page-background-image: url("../images/cover-image-light.png");
+
+    --rec-decor-visibility: hidden;
+  }
+}
