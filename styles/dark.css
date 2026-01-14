@@ -1,16 +1,12 @@
 .page.theme_dark {
-  --title-color: #DB00FF;
-  --text-color: #F1B2CE;
-  --sub-text-color: #000028;
+  --background-image: url("../images/cover-image-dark.png");
   --accent-color: #ff0070;
-  --btn-color:#ff0070;
-  --backgroung-image: url(../images/cover-image-dark.png);
-}
-
-.theme_dark .decor_element {
-  display: flex;
-}
-
-.theme_dark .header__theme-menu-button:hover {
-  border: 1px solid rgba(255, 0, 112, 0.40);
+  --accent-color-opacity: #ff007066;
+  --text-color: #f1b2ce;
+  --decoration-color: var(--accent-color);
+  --background-color: #000028;
+  --header1-color: #db00ff;
+  --header2-color: var(--accent-color);
+  --header3-color: var(--background-color);
+  --is-light: visible;
 }
