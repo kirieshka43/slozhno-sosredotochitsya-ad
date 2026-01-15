@@ -1,1 +1,1 @@
-https://github.com/kirieshka43/slozhno-sosredotochitsya-ad.git
+https://github.com/kirieshka43/slozhno-sosredotochitsya-ad.git 
